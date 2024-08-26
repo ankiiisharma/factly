@@ -43,7 +43,7 @@ const TodoList: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
+    <div className="min-h-screen px-[20px] flex flex-col items-center justify-center bg-gray-100">
       <Toaster />
       <h1 className="text-3xl font-bold mb-6 tracking-tighter">to-do list</h1>
       <img src={underline} className="w-[150px] mt-[-25px] mb-5" alt="" />
