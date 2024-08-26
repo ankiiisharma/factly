@@ -18,10 +18,16 @@ const Home = () => {
             Task 01
           </button>
           <button
-            className="px-[20px] py-[10px] rounded-lg text-white font-semibold bg-blue-500 hover:bg-blue-800 duration-150 border border-gray-400"
+            className="px-[20px] py-[10px] rounded-lg text-white font-semibold bg-blue-500 hover:bg-blue-800 duration-150 border border-gray-400 mb-2"
             onClick={() => Navigate("/tictactoe")}
           >
             Tic Tac Toe
+          </button>
+          <button
+            className="px-[20px] py-[10px] rounded-lg text-white font-semibold bg-blue-500 hover:bg-blue-800 duration-150 border border-gray-400"
+            onClick={() => Navigate("/todo")}
+          >
+            To Do
           </button>
         </div>
       </div>
